@@ -526,6 +526,7 @@ async def run():
     
 
     # Validating the verifiable presentation
+    
     job_application_proof_object = json.loads(theCompany['job_application_proof'])
 
     theCompany['schemas_for_job_application'], theCompany['cred_defs_for_job_application'], \
